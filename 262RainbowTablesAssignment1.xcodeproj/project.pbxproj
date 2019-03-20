@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F1DA207A218DE64800DF760F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1DA2079218DE64800DF760F /* main.cpp */; };
+		F1DA2084218DE6EB00DF760F /* md5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1DA2081218DE6EB00DF760F /* md5.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		F1DA2076218DE64800DF760F /* 262RainbowTablesAssignment1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 262RainbowTablesAssignment1; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1DA2079218DE64800DF760F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F1DA2080218DE6EB00DF760F /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		F1DA2081218DE6EB00DF760F /* md5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = md5.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				F1DA2079218DE64800DF760F /* main.cpp */,
+				F1DA2081218DE6EB00DF760F /* md5.cpp */,
+				F1DA2080218DE6EB00DF760F /* md5.h */,
 			);
 			path = 262RainbowTablesAssignment1;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1DA2084218DE6EB00DF760F /* md5.cpp in Sources */,
 				F1DA207A218DE64800DF760F /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
